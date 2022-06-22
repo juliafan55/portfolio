@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes} from "react-icons/fa"
+import { FaBars, FaLinkedin, FaTimes, FaGithub } from "react-icons/fa"
+import { HiOutlineMail } from "react-icons/hi"
+import {IoDocumentTextOutline} from "react-icons/io5"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -7,7 +9,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#232946] text-[#fffffe]">
-            <div className="">
+            <div className="text-4xl">
                 Julia Fan
             </div>
 
@@ -39,6 +41,31 @@ const Navbar = () => {
                 </ul>
             </div>
 
+            {/* sidebar */}
+                <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+                    <ul>
+                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                            <a href="/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
+                                LinkedIn <FaLinkedin size={30} />
+                            </a>
+                        </li>
+                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                            <a href="/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
+                                GitHub <FaGithub size={30} />
+                            </a>
+                        </li>
+                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                            <a href="/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
+                                Email <HiOutlineMail size={30} />
+                            </a>
+                        </li>
+                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                            <a href="/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
+                                Resume <IoDocumentTextOutline size={30} />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
         </div>
 
     )
