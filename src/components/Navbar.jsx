@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#232946] text-[#fffffe]">
-            <div className="text-4xl">
+            <div className="text-4xl font-bold text-[#eebbc3]">
                 JF
             </div>
 
