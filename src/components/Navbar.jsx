@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#232946] text-[#fffffe]">
             <div className="text-4xl">
-                Julia Fan
+                JF
             </div>
 
             {/* desktop menu */}
