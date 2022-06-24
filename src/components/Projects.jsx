@@ -11,6 +11,7 @@ const Projects = () => {
                     <p className="py-4"> // Check out some of my work.</p>
                 </div>
 
+                {/* list of projects */}
                 {/* DIGITAL HUB */}
                 <div className="grid sm:grid-cols-2 gap-4">
                     <div
