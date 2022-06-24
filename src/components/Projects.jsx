@@ -26,10 +26,10 @@ const Projects = () => {
                             <p className="text-l text-[#eebbc3]">MERN full stack social media/blog app.</p>
 
                             <div className="pt-4 text-center">
-                                <a href="/">
+                                <a target="_blank" href="/">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Coming soon... </button>
                                 </a>
-                                <a href="https://github.com/juliafan55/digital-hub-frontend">
+                                <a target="_blank" target="_blank" href="https://github.com/juliafan55/digital-hub-frontend">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Code </button>
                                 </a>
                             </div>
@@ -46,10 +46,10 @@ const Projects = () => {
                             <p className="text-l text-[#eebbc3]">React front-end ecommerce app using fakestore api.</p>
 
                             <div className="pt-4 text-center">
-                                <a href="https://atlantic-ecommerce.netlify.app/">
+                                <a target="_blank" href="https://atlantic-ecommerce.netlify.app/">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Demo </button>
                                 </a>
-                                <a href="https://github.com/juliafan55/react-ecommerce-site">
+                                <a target="_blank" href="https://github.com/juliafan55/react-ecommerce-site">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Code </button>
                                 </a>
                             </div>
@@ -66,10 +66,10 @@ const Projects = () => {
                             <p className="text-l text-[#eebbc3]">MEN stack simple movie review app.</p>
 
                             <div className="pt-4 text-center">
-                                <a href="https://sei-popcorn-time.herokuapp.com/movies">
+                                <a target="_blank" href="https://sei-popcorn-time.herokuapp.com/movies">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Demo </button>
                                 </a>
-                                <a href="https://github.com/juliafan55/SEI-Project-2-IMDB">
+                                <a target="_blank" href="https://github.com/juliafan55/SEI-Project-2-IMDB">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Code </button>
                                 </a>
                             </div>
@@ -86,10 +86,10 @@ const Projects = () => {
                             <p className="text-l text-[#eebbc3]">Studio Ghibli themed browser based trivia game.</p>
 
                             <div className="pt-4 text-center">
-                                <a href="https://juliafan55.github.io/javascript-trivia/">
+                                <a target="_blank" href="https://juliafan55.github.io/javascript-trivia/">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Demo </button>
                                 </a>
-                                <a href="https://github.com/juliafan55/javascript-trivia">
+                                <a target="_blank" href="https://github.com/juliafan55/javascript-trivia">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Code </button>
                                 </a>
                             </div>
