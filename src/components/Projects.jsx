@@ -1,6 +1,9 @@
 
 import React from 'react'
-import WorkImg from '../assets/workImg.jpg';
+import Atlantic from '../assets/Atlantic.png'
+import DigitalHub from '../assets/DigitalHub.png'
+import PopcornTime from '../assets/PopcornTime.png'
+import StudioGhibli from '../assets/StudioGhibli.png'
 
 const Projects = () => {
     return (
@@ -15,7 +18,7 @@ const Projects = () => {
                 {/* DIGITAL HUB */}
                 <div className="grid sm:grid-cols-2 gap-4">
                     <div
-                        style={{ backgroundImage: `url(${WorkImg})` }}
+                        style={{ backgroundImage: `url(${DigitalHub})` }}
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
@@ -35,7 +38,7 @@ const Projects = () => {
 
                     {/* ATLANTIC */}
                     <div
-                        style={{ backgroundImage: `url(${WorkImg})` }}
+                        style={{ backgroundImage: `url(${Atlantic})` }}
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
@@ -55,7 +58,7 @@ const Projects = () => {
 
                     {/* POPCORN TIME */}
                     <div
-                        style={{ backgroundImage: `url(${WorkImg})` }}
+                        style={{ backgroundImage: `url(${PopcornTime})` }}
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
@@ -75,7 +78,7 @@ const Projects = () => {
 
                     {/* TRIVIA GAME */}
                     <div
-                        style={{ backgroundImage: `url(${WorkImg})` }}
+                        style={{ backgroundImage: `url(${StudioGhibli})` }}
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
