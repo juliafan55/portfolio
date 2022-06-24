@@ -12,4 +12,29 @@
     @apply px-4;
     @apply cursor-pointer;
   }
+  button {
+    @apply bg-[#232946];
+    @apply text-[#eebbc3];
+    @apply rounded-sm;
+  }
+  button:hover {
+    @apply bg-[#eebbc3];
+    @apply text-[#232946];
+    @apply border-[#eebbc3];
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(35, 41, 70, 0.5),
+    hsla(230, 58%, 82%, 0.5)
+  ) !important;
 }
