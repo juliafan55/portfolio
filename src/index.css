@@ -11,6 +11,10 @@
   li {
     @apply px-4;
     @apply cursor-pointer;
+    @apply underline-offset-2;
+  }
+  li:hover {
+    @apply underline;
   }
   button {
     @apply bg-[#232946];
