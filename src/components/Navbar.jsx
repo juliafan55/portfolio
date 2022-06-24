@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import { FaBars, FaLinkedin, FaTimes, FaGithub } from "react-icons/fa"
 import { HiOutlineMail } from "react-icons/hi"
 import { IoDocumentTextOutline } from "react-icons/io5"
-import {Link} from "react-scroll"
+import { Link } from "react-scroll"
+import JuliaFanResume from "../assets/Julia_Fan_Resume.pdf"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -66,22 +67,22 @@ const Navbar = () => {
                 <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
                     <ul>
                         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                            <a href="/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
+                            <a href="https://www.linkedin.com/in/juliafan55/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
                                 LinkedIn <FaLinkedin size={30} />
                             </a>
                         </li>
                         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                            <a href="/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
+                            <a href="https://github.com/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
                                 GitHub <FaGithub size={30} />
                             </a>
                         </li>
-                        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                        {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
                             <a href="/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
                                 Email <HiOutlineMail size={30} />
                             </a>
-                        </li>
+                        </li> */}
                         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                            <a href="/" className="flex justify-between items-center w-full text-[#fffffe] pl-4">
+                            <a href={JuliaFanResume} download className="flex justify-between items-center w-full text-[#fffffe] pl-4">
                                 Resume <IoDocumentTextOutline size={30} />
                             </a>
                         </li>

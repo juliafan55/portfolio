@@ -7,8 +7,8 @@ const Projects = () => {
         <div name="projects" className="w-full md:h-screen text-[#b8c1ec] bg-[#232946]">
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-[#eebbc3]">Work</p>
-                    <p className="py-4"> // Check out some of my work.</p>
+                    <p className="text-4xl font-bold inline border-b-4 border-[#eebbc3]">Projects</p>
+                    <p className="py-4"> // Check out some of my projects.</p>
                 </div>
 
                 {/* list of projects */}
@@ -19,14 +19,14 @@ const Projects = () => {
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
-                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Digital Hub</p>
-                            <p className="text-l text-[#eebbc3]">A blog app...</p>
+                            <p className="text-3xl font-bold text-[#eebbc3] tracking-wider">Digital Hub</p>
+                            <p className="text-l text-[#eebbc3]">MERN full stack social media/blog app.</p>
 
-                            <div classname="pt-4 text-center">
+                            <div className="pt-4 text-center">
                                 <a href="/">
-                                    <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Demo </button>
+                                    <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Coming soon... </button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/juliafan55/digital-hub-frontend">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Code </button>
                                 </a>
                             </div>
@@ -39,14 +39,14 @@ const Projects = () => {
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
-                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Digital Hub</p>
-                            <p className="text-l text-[#eebbc3]">A blog app...</p>
+                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Atlantic</p>
+                            <p className="text-l text-[#eebbc3]">React front-end ecommerce app using fakestore api.</p>
 
-                            <div classname="pt-4 text-center">
-                                <a href="/">
+                            <div className="pt-4 text-center">
+                                <a href="https://atlantic-ecommerce.netlify.app/">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Demo </button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/juliafan55/react-ecommerce-site">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Code </button>
                                 </a>
                             </div>
@@ -59,14 +59,14 @@ const Projects = () => {
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
-                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Digital Hub</p>
-                            <p className="text-l text-[#eebbc3]">A blog app...</p>
+                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Popcorn Time</p>
+                            <p className="text-l text-[#eebbc3]">MEN stack simple movie review app.</p>
 
-                            <div classname="pt-4 text-center">
-                                <a href="/">
+                            <div className="pt-4 text-center">
+                                <a href="https://sei-popcorn-time.herokuapp.com/movies">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Demo </button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/juliafan55/SEI-Project-2-IMDB">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Code </button>
                                 </a>
                             </div>
@@ -79,14 +79,14 @@ const Projects = () => {
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
-                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Digital Hub</p>
-                            <p className="text-l text-[#eebbc3]">A blog app...</p>
+                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Studio Ghibli Trivia</p>
+                            <p className="text-l text-[#eebbc3]">Studio Ghibli themed browser based trivia game.</p>
 
-                            <div classname="pt-4 text-center">
-                                <a href="/">
+                            <div className="pt-4 text-center">
+                                <a href="https://juliafan55.github.io/javascript-trivia/">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Demo </button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/juliafan55/javascript-trivia">
                                     <button className="text-center px-4 py-2 m-2 font-bold text-lg"> Code </button>
                                 </a>
                             </div>

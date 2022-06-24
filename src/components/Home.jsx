@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from "react-icons/hi"
 import Typewriter from 'typewriter-effect'
+import { Link } from 'react-scroll'
 
 const Home = () => {
     return (
@@ -24,11 +25,14 @@ const Home = () => {
                     />
                 </div>
                 <div className="py-3">
-                    <button className="group border-2 px-6 py-3 my-2 flex items-center ">Projects
+                    <button className="group border-2 px-6 py-3 my-2 flex items-center">
+                    <Link to="projects" smooth={true} className="flex items-center">
+                       Projects
                         <span className="group-hover:rotate-90 duration-300">
                             <HiArrowNarrowRight className="ml-2" />
                         </span>
-                    </button>
+                        </Link>
+                        </button>
                 </div>
                     
 
