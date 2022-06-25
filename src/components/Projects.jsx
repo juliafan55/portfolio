@@ -42,7 +42,7 @@ const Projects = () => {
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
-                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Atlantic</p>
+                            <p className="text-3xl font-bold text-[#eebbc3] tracking-wider">Atlantic</p>
                             <p className="text-l text-[#eebbc3]">React front-end ecommerce app using fakestore api.</p>
 
                             <div className="pt-4 text-center">
@@ -62,7 +62,7 @@ const Projects = () => {
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
-                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Popcorn Time</p>
+                            <p className="text-3xl font-bold text-[#eebbc3] tracking-wider">Popcorn Time</p>
                             <p className="text-l text-[#eebbc3]">MEN stack simple movie review app.</p>
 
                             <div className="pt-4 text-center">
@@ -82,7 +82,7 @@ const Projects = () => {
                         className="group container rounded-md flex justify-center items-center mx-auto content-div"
                     >
                         <div className="opacity-0 group-hover:opacity-100">
-                            <p className="text-2xl font-bold text-[#eebbc3] tracking-wider">Studio Ghibli Trivia</p>
+                            <p className="text-3ßxl font-bold text-[#eebbc3] tracking-wider">Studio Ghibli Trivia</p>
                             <p className="text-l text-[#eebbc3]">Studio Ghibli themed browser based trivia game.</p>
 
                             <div className="pt-4 text-center">
